@@ -1,0 +1,35 @@
+html {
+  background: linear-gradient(to bottom, #ffffcc, #c5efca);
+  height: 100%;
+}
+
+body {
+  font-family: "Inconsolata",Andale Mono,Monaco,Monospace;
+  color: white;
+  margin: 0;
+}
+
+.window {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  right: 0;
+}
+
+.bullseye-center {
+  background: none repeat scroll 0 0 #FFFFFF;
+  color: #777777;
+  padding: 0.5em 0;
+  position: absolute;
+  top: 50%;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.logo {
+  background: url("../images/logo.svg") no-repeat -7px 0 #DE3167;
+  height: 65px;
+  width: 70px;
+}
